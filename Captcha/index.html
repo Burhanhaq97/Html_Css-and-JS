@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Captcha</title>
+  </head>
+  <body>
+    <div class="containter">
+      <header>Captcha in JavaScript</header>
+      <div class="captcha_area">
+        <div class="captcha_imge">
+          <img src="bg6.png" alt="captcha" />
+          <span class="captcha">  </span>
+        </div>
+        <button class="captcha_relode">
+          <i class="fas fa-redo"></i>
+        </button>
+      </div>
+      <form action="#">
+        <input type="text" placeholder="Enter Captcha" required />
+        <button class="captcha_btn">Check</button>
+      </form>
+      <div class="status_txt"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
