@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #93ece047;
+    font-family: monospace;
+}
+.container{
+    background-color: rgb(92, 88, 88);
+    width: 40%;
+    height: auto;
+    padding: 16px;
+    margin-top: 50px;
+}
+.btn{
+    display: flex;
+    padding: 5px 0px 10px 0px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    background: #2981bc;
+    padding: 15px 73px;
+}
+.btn a.a2{
+    background-color: #34495e;
+}
+.header{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 5px 0 25px 0;
+}
+.signup_error{
+    user-select: none;
+    text-align: center;
+    background:rgba(255, 0, 0, .3);
+    width: 85%;
+    margin: 0px 0px 20px 38px;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff9999;
+    border: 1px solid #b30000;
+    border-radius: 4px;
+    display: none;
+}
+form input{
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+    background: none;
+    border: 1px solid #3498db;
+    border-radius: 2px;
+    padding: 0 10px;
+    margin-left: 35px;
+    outline: none;
+    color: white;
+}
+::placeholder{
+    color: #7dbde8;
+}
+form input.lastName{
+    margin-left: 27px;
+}
+form input.email{
+    width: 85%;
+    margin-top: 20px;
+}
+form input.password{
+    width: 85%;
+    margin-top: 20px;
+}
+input[type="submit"]{
+    margin: 30px 0px 40px 35px;
+    width: 85%;
+    height: 50px;
+    font-size: 23px;
+    cursor: pointer;
+    color: white;
+    background: #2981bc;
+    border: 1px solid #2573a7;
+}
+input[type="submit"]:hover{
+    background: #2990d1;
+    transition: .5s;
+}
+.login_form{
+    display: none;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="btn">
+        <a class="a1" href="#">Sign up</a>
+        <a class="a2" href="#">Log in</a>
+      </div>
+
+      <div class="singup_form">
+        <div class="header">Signup For Free</div>
+        <div class="signup_error"></div>
+        <form
+          action="home.html"
+          name="signupForm"
+          method="post"
+          onsubmit="return signupValid()"
+        >
+          <input
+            class="firstName"
+            type="text"
+            name="firstname"
+            placeholder="First Name"
+            autocomplete="off"
+          />
+          <input
+            class="lastName"
+            type="text"
+            name="lastname"
+            placeholder="Last Name"
+            autocomplete="off"
+          />
+          <input
+            class="email"
+            type="email"
+            name="email"
+            placeholder="Email"
+            autocomplete="off"
+          />
+          <input
+            class="password"
+            type="password"
+            name="password"
+            placeholder="Password"
+            autocomplete="off"
+          />
+          <input class="singup_btn" type="submit" value="Sign up" />
+        </form>
+      </div>
+
+      <div class="login_form">
+        <div class="header">Log In For Free</div>
+        <form action="#" method="post">
+          <input class="email" type="email" placeholder="Email" />
+          <input class="password" type="password" placeholder="Password" />
+          <input class="login_btn" type="submit" value="Log in" />
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
